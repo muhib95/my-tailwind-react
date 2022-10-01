@@ -3,9 +3,25 @@ import Price from '../Price/Price';
 
 const Pricing = () => {
   const pricingOption=[
-    {id:1,name:'Free',price:0},
-    {id:2,name:'Medium',price:9.9},
-    {id:3,name:'Premium',price:19.9},
+    {id:1,name:'Free',price:0,features:[
+      'Cheap in price',
+      'Unlimited use',
+      'Free data '
+
+    ]
+  },
+    {id:2,name:'Medium',price:9.9,features:[
+      'Cheap in price',
+      'Unlimited use',
+      'Free data '
+
+    ]},
+    {id:3,name:'Premium',price:19.9,features:[
+      'Cheap in price',
+      'Unlimited use',
+      'Free data '
+
+    ]},
   ];
   return (
     <div>
